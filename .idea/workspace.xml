@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92705574-dd94-481c-a024-e096f3318309" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AnalyzeTitanic.py" afterPath="$PROJECT_DIR$/src/LogistcPredictor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyzeTitanic.py" afterPath="$PROJECT_DIR$/src/AnalyzeTitanic.py" />
     </list>
     <ignored path="Titanic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AnalyzeTitanic.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AnalyzeTitanic.py">
+      <file leaf-file-name="LogistcPredictor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LogistcPredictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="286">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -51,6 +51,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/test.py" />
         <option value="$PROJECT_DIR$/src/AnalyzeTitanic.py" />
+        <option value="$PROJECT_DIR$/src/DecisionTreePredictor.py" />
       </list>
     </option>
   </component>
@@ -140,7 +141,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Titanic" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AnalyzeTitanic.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Jason\PycharmProjects\Titanic\src\LogistcPredictor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -362,7 +363,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AnalyzeTitanic.py">
+    <entry file="file://$PROJECT_DIR$/src/LogistcPredictor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -402,10 +403,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyzeTitanic.py">
+    <entry file="file://$PROJECT_DIR$/src/DecisionTreePredictor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LogistcPredictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>

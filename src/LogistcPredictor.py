@@ -19,7 +19,6 @@ titanic.loc[titanic["Sex"] == "female", "Sex"] = 0
 # Manipulate features
 titanic["Embarked_squared"] = titanic["Embarked"]**2
 titanic["Age_squared"] = titanic["Age"]**2
-print titanic.head()
 
 # The columns we'll use to predict the target
 predictors = ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Embarked_squared"]
@@ -46,12 +45,5 @@ for train, test in kf:
 # We concatenate them on axis 0, as they only have one axis.
 predictions = np.concatenate(predictions, axis=0)
 
-# accuracy = np.sum(predictions[predictions == titanic["Survived"]]) / float(len(predictions))
-# print accuracy
-
-count = 0
-for idx in range(0, len(predictions)):
-    if predictions[idx] == titanic["Survived"][idx]:
-        count += 1
-accuracy = count / float(len(predictions))
+accuracy = np.sum(np.array(predictions == titanic["Survived"], dtype=np.bool_)) / float(len(predictions))
 print accuracy
